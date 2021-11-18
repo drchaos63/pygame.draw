@@ -10,6 +10,7 @@ s = pg .display.set_mode(size)
 clock = pg.time.Clock()
 BLUE = (0,  0, 255)
 
+polygon_width=70
 s.fill(BLUE)
 rect(s, (0, 225, 0), (0, 200, 630, 630))
 rect(s, (100,105, 0), (50,160 , 200, 170))
